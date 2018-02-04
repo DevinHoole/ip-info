@@ -1,0 +1,47 @@
+body {
+  background-color: #368F8B;
+}
+
+#info {
+    height: 250px;
+    width: 812px;
+    padding-right: 10px;
+    padding-top: 45px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #E2DBBE;
+}
+
+#ips {
+  font-family: serif;, monospace;
+  text-align: center;
+  margin: auto;
+  color: #0B2027;
+  font-size: 35px;
+}
+
+#Konami {
+  font-size: 20px;
+   text-align: center;
+}
+
+#ip {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#city {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#region {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#country {
+  font-size: 35px;
+  font-weight: bold;
+}

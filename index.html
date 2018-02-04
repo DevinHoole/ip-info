@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>IP info </title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+  <script src="jquery-1.3.2.min.js"></script>
+  <script src="konami.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+ </head>
+ 
+ <body>
+ 
+   <script>
+  $(document).ready(function(){
+   $('#ip').hide();
+   $('#city').hide();
+   $('#region').hide();  
+   $('#country').hide();
+	$(window).konami(function(){
+		alert('Konami Code Activated');
+		$('#ip').show();
+		$('#city').show();
+		$('#region').show();
+		$('#country').show();
+	     });	
+ 	 });
+  </script>
+ 
+ 
+   <div id = "info">
+     <div id = "Konami">To View Info Put In Konami Code</div>
+     <div id='ips'>IP address: <span id="ip"></span><br>
+     City: <span id="city"></span><br>
+     Region: <span id="region"></span><br>
+     Country name: <span id="country"></span>
+     </div>
+   </div>
+ </body> 
+</html>
